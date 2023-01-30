@@ -1,0 +1,33 @@
+
+.about {
+    padding-top: 5%;
+    text-align: left;
+    margin-left: 25%;
+   }
+    .about header {
+      text-align: left;
+    }
+#pfp {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20%;
+    margin-top: 3vh;}
+#pfp .img_layout {
+    margin-top: 1vh;
+    }
+    #pfp #info{
+        margin-left: 6vh;
+        max-width: 1em;
+        }
+#pfp #blurb {     
+    margin-left: 6vh;
+    margin-bottom:1vh;
+}
+#info p {
+    margin-left: 25%;
+    font-family: "Montserrat";
+    font-weight: medium;
+    font-size: 20px;
+}

@@ -1,0 +1,94 @@
+.project-container {
+    padding-left: 6vh;
+    padding-right: 6vh; }
+.project-container p{
+    font-size: 21px;
+}
+.project-title header {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.grid-container h2{
+    font-family: "Karla";
+    font-weight: bold;
+    color: #EE7404;
+    font-size: 28px;
+    margin-bottom: auto;
+    }
+    .grid-container h3{
+        font-family: "Karla";
+        font-weight: bold;
+        color: #645FA4;
+        font-size: 28px;
+        margin-bottom: auto;
+        }
+.grid-container{
+    /* justify-items: center; */
+    margin: auto;
+    display: grid;
+    width: 1000px;
+    grid-template-columns: fit-content(333px)fit-content(333px)fit-content(333px);
+    grid-column-gap: 10px;
+
+}
+.grid-container .first-sub{
+    text-align: left;
+}
+.grid-container .second-sub{
+    text-align: center;
+}
+.grid-container .third-sub{
+    text-align: right;
+} 
+
+.grid-container .first-text p{
+    text-align: left;
+}
+.grid-container .second-text p{
+    text-align: left;
+    margin-left: 12vh;
+}
+.grid-container .third-text p{
+    text-align: right;
+    
+}
+
+.grid-container p{
+    text-align: left;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+.grid-container .banner{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    overflow-x: hidden;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height:100%;
+    grid-column: 1/-1;
+}
+ .background-blurb{
+    margin-left: auto;
+    grid-column: 2/-1; 
+}
+.background-blurb #nudge{
+    margin-right: 1.5vh;
+}
+.grid-container #left-img{
+    margin-top: 3vh;
+}
+.grid-container .caption-link{
+    grid-column: 1/-1
+}
+.grid-container #reflection{
+    grid-column: 3/-1;
+}
+.grid-container .caption-link a {
+    cursor: pointer;
+    font-family: "Karla";
+    font-weight: bold;
+    font-size: 28px;
+    transition: all .1s;
+    position: relative; }
